@@ -146,7 +146,6 @@ h3,
 
 .work {
 	width: 274px;
-	overflow: auto;
 	position: relative;
 	float: left;
 	margin: 20px 0 25px;
@@ -157,7 +156,6 @@ h3,
 .work img {
 	width: 100%;
 	border: 0 none;
-	opacity: .8;
 }
 .work h3 {
 	border-bottom: 0;
@@ -254,6 +252,10 @@ input[type=submit] {
 		margin-right: 9%;
 
 	}
+
+	.work {
+		width: 385px;
+	}
 }
 
 
@@ -261,29 +263,36 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
-#masthead {
-	max-width:768px;
-	padding-left: 3%;
-	padding-right: 3%;
+	#masthead {
+		max-width:770px;
+		padding-left: 3%;
+		padding-right: 3%;
 
-}
+	}
 
-.auth-image {
-	max-width: 330px;
-	margin-right: 25px;
-	margin-bottom: 10px
-}
+	.auth-image {
+		max-width: 330px;
+		margin-right: 25px;
+		margin-bottom: 10px;
+		padding-left: 30px;
 
-.main-section {
-	margin-left: 3%;
-	max-width: 720px;
-}
+	}
 
-.sidebar {
-	max-width: 720px;
-	margin-right: 25px;
+	.main-section {
+		margin-left: 3%;
+		max-width: 720px;
 
+	}
 
+	.sidebar {
+		max-width: 720px;
+		margin-right: 25px;
+
+	}
+	.work {
+		width: 308px;
+
+	}
 }
 
 
@@ -326,6 +335,7 @@ input[type=submit] {
 		margin: 5%;
 		max-width: 580px;
 		margin-top: 8%;
+		margin-right: 4%;
 	}
 
 	.sidebar {
